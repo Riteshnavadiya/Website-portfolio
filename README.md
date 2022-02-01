@@ -1,2 +1,2 @@
-# Website-portfolio #html #css #javascript #website #developer
+# Website-portfolio
 Best new creative website
