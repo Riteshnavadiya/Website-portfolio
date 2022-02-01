@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&family=Merriweather:wght@700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-size: cover;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    padding: 2% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+ul li{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+    position: relative;
+    padding: 17px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font: bold;
+}
+
+ul li a{
+    font:bold;
+    text-decoration: none;
+    color: black;
+    border-radius: 2px solid black;
+    padding: 6px 4px;
+}
+
+ul li a::after{
+    content: '';
+    width: 0%;
+    margin: auto;
+    display: block;
+    height: 2px;
+    transition: .5s;
+    background: black;
+}
+
+ul li a:hover::after{
+    content: '';
+    width: 90%;
+    margin: auto;
+    display: block;
+    height: 2px;
+    background:black;
+}
+
+.text{
+    margin: 401px 10px 15px 784px;
+    position: absolute;
+}
+
+h1{
+    font-size: 50px;
+    margin: -17px 12px 12px 12px;
+}
+
+.text h1{
+    font-size: 47px;
+    margin:20px 26px;
+    align-items: center;
+}
+
+p{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    font-size: 20px;
+    margin: 20px 118px;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: none;
+    display: block;
+    transition: 1.5s;
+    padding: 12px 12px 12px 12px;
+}
+
+button:hover{
+    background-color: red;
+    border-radius: 4px;
+    border-color: red;
+}
+
+.pictures{
+    margin: 0%;
+    padding: 0%;
+    position: absolute; 
+}
+
+.picture1 {
+    border: 2px solid black;
+    width: 350px;
+    height: 348px;
+    margin: 12px 12px 12px 42px;
+    position: absolute;
+    box-shadow: 2px 1px 1px  1px black;
+} 
+
+.picture2 {
+    position: absolute;
+    margin: 320px 35px 31px 317px;
+    border: 2px solid black;
+    width: 400px;
+    height: 380px;
+    padding: 8px 1px 2px 1px;
+}
+
+.picture3 {
+    position: absolute;
+    margin: 43px 15px 15px 532px;
+    box-shadow: 2px 0px 28px 1px black;
+    border: 2px solid black;
+    width: 288px;
+    height: 300px;
+}
+
+    /*------------------------ offers --------------------*/
+
+.offerss{
+    text-align: center;
+}
+.offers{
+    display: flex;
+   justify-content: space-between;
+    text-align: center;
+    font-weight: 600;
+    padding: 12px 12px;
+    border: 2px;
+    margin: 12px;
+    box-shadow: none;
+}
+h2{
+    font-size: 70px;
+    margin: 68px 0px 0px;
+}
+
+
+/*---------------------- Design ------------------*/
+
+
+.offers{
+    padding: 60px 60px 10px 60px;
+}
+
+.gold h1{
+    font-size: 35px;
+    margin: 12px 25px 27px 24px;
+}
+
+.gold{
+    border: 2px solid #fff3f3;
+    padding: 25px 12px;
+    box-sizing: border-box;
+    margin: 25px;
+    background-color: #fff3f3;
+}
+.gold:hover{
+    box-shadow: 2px 0px 28px 1px black;
+    border-radius: 8px ;
+}
+
+.page{
+    text-align: center;
+}
+
+.offers{
+    display: flex;
+    /* flex-basis: 32%; */
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 600;
+    padding: 12px 12px;
+    border: 2px;
+    margin: 12px;
+    box-shadow: none;
+}
+
+h1{
+    font-size: 70px;
+    margin: 68px 0px 0px;
+    text-align: center;
+}
+
+.design1 h3{
+    box-sizing: border-box;
+    font-size: 25px;
+    margin: 15px 0px 4px 0px;
+}
+
+.designs{
+    display: flex;
+    border: 20px solid  #bdbeff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding: 18px 35px;
+    margin: 40px 50px;
+}
+
+.d1{
+    width: 345px; 
+    height: 200px;
+    transition: .5s;
+}
+
+.d1:hover{
+    box-shadow: 0px 11px 19px 9px;
+}
+.d2{
+    margin: 323px 12px 12px 12px;
+    width: 350px;
+    height: 200px;
+    transition: .5s;
+}
+.d2:hover{
+    box-shadow: 0px 11px 19px 9px;
+}
+
+.d3{
+    transition: .5s;
+    width: 330px;
+    height: 195px;
+}
+.d3:hover{
+    box-shadow: 0px 11px 19px 9px;
+}
+
+
+/* <!---------------------- client --------------------> */
+
+
+.client{
+    display: inline-block;
+}
+.client h1 p{
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    border: 2px solid black;
+    margin: 12px 12px 12px 12px;
+    padding: 18px 18px;
+    background-color: #fff3f3;
+    border-radius: 20px;
+}
+
+.menu img{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    margin: 12px;
+}
+
+.star{
+    display: flex;
+    margin:45px 125px 25px 125px;
+}
+
+.menu p{
+    margin: 12px;
+    text-align: left;
+}
+
+.menu h3{
+    margin: 12px 12px 12px 9px;
+    font: bold;
+    font-size: 22px;
+}
+.abc i{
+    margin: 3px 0px 16px 7px;
+    color: orange;
+}
+
+
+/* <!-------------------------- gta and footer -------------------------> */
+
+
+.gta{
+    margin: 100px auto;
+    width: 80%;
+     background-image: linear-gradient(rgba(0,0,0,.7) , rgba(0,0,0,.7)), url(images/gta1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 10px 55px 185px 55px;
+    border-radius: 10px;
+    
+}
+
+.gta h5{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 110px;
+    margin-bottom: 65px;
+}
+.gta a{
+    font-size: 29px;
+    margin-bottom: 25px;
+    padding:8px 28px;
+    margin:auto;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 1px;
+    transition: 1s;
+}
+.gta a:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 3px;
+}
+
+.footer{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    margin-top: 200px;
+}
+.footer h4{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 22px;
+    margin-bottom: 12px;
+    
+}
+.footer p{
+    color: rgba(0,0,0,.4);
+}
+.social i{
+    margin-top: 12px;
+    color: orange;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.social h3 {
+    margin-top: 8px ;
+}
+
+.social h3 i{
+    margin-top: 12px ;
+    color: rgb(255, 77, 77);
+}
